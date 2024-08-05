@@ -9,13 +9,20 @@
   object-fit: contain;
 }
 
+.datum {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: crimson;
+}
+
 .tooltip {
   position: absolute;
   top: -30px;
   left: 0;
   display: none;
   padding: 5px;
-  background-color: #000;
+  background-color: green;
   color: #fff;
   font-size: 12px;
 }
